@@ -1,0 +1,42 @@
+body {background: #eeeeee;
+}
+
+h1 {
+	font-size: 24px;
+	text-align: center;
+}
+
+p{
+	font-size: 20px;
+  	line-height: 12px;
+}
+
+ul {line-height: 30px;
+}
+
+.box {
+	width: 500px; 
+	background-color: #ffffff;
+	border-radius: 3px;
+	-webkit-box-shadow: 0px 0px 5px 0px grey;
+	-moz-box-shadow: 0px 0px 5px 0px grey;
+	box-shadow: 0px 0px 5px 0px grey;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+.photo {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.body-txt {	
+	text-align: left;
+	font-size: 20px;
+	border-top: 1px solid grey;
+	padding: 10px 13px 10px 13px;
+}
+
+.phone {padding: 0px 0px 20px 0px;
+}
