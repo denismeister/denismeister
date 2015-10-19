@@ -1,5 +1,5 @@
 body {
-	background: #eeeeee;
+	 background: #eeeeee;
 }
 
 h1 {
@@ -7,13 +7,17 @@ h1 {
 	text-align: center;
 }
 
-p {
+p{
 	font-size: 20px;
-  	line-height: 12px;
+	line-height: 12px;
 }
 
-ul { 
+ul {
 	line-height: 30px;
+}
+
+#para1{
+	margin-left: 13px;
 }
 
 .box {
@@ -29,7 +33,7 @@ ul {
 
 .photo {
 	text-align: center;
-	padding: 20px 0px 20px 0px;
+	padding: 20px 03px 20px 0px;
 }
 
 .body-txt {	
