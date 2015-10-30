@@ -77,6 +77,7 @@ figcaption {
     margin: 0 auto;
     width: 1000px;
     height: 28px;
+    position: relative;
 }
 
 nav {
