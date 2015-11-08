@@ -132,25 +132,16 @@ nav ul ul li {
 
 .left-col {
     width: 177px;
-    height: 100%;
-    padding: 16px 16px 16px 16px;
-    float: left;
-    background-color: #edeef0;
-    font: 400 14px / 24px Tahoma;
-    color: #424c43;
-}
-
-.right-col {
-    width: 177px;
     padding: 16px 16px 20000px 16px;
     margin-bottom: -20000px;
     float: left;
     background-color: #edeef0;
     font: 400 14px / 24px Tahoma;
     color: #424c43;
+
 }
 
-.copyright {
+.right-col {
     width: 177px;
     padding: 16px 16px 20000px 16px;
     margin-bottom: -20000px;
@@ -158,4 +149,14 @@ nav ul ul li {
     background-color: #edeef0;
     font: 400 14px / 24px Tahoma;
     color: #424c43;
+
+}
+
+.copyright {
+    font: 400 12px Tahoma;
+    color: white;
+    margin: 0px auto;
+    clear: both;
+    text-align: center;
+    padding: 10px;
 }
