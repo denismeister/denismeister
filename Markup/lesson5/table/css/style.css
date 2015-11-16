@@ -1,0 +1,33 @@
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 50px auto;
+    width: 450px; 
+    height: 500px;
+}
+
+td, th {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+}
+
+.black {
+    background-color: #000000;
+}
+
+.yellow {
+    background-color: #fffc9e;
+}
+
+.red {
+    background-color: #fe0000;
+}
+
+.blue {
+    background-color: #3166ff;
+}
+
+.white{
+        background-color: #fff;
+}

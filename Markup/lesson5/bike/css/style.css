@@ -1,0 +1,233 @@
+@font-face {
+    font-family: 'Helvetica Neue Cyr';
+    src: url('fonts/helveticaneuecyr-roman-webfont.eot');
+    src: url('fonts/helveticaneuecyr-roman-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/helveticaneuecyr-roman-webfont.woff2') format('woff2'), url('fonts/helveticaneuecyr-roman-webfont.woff') format('woff'), url('fonts/helveticaneuecyr-roman-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top;
+    font-family: "Helvetica Neue Cyr", Tahoma, sans-serif;
+    font-size: 14px;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+hr {
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    left: 0px;
+    height: 1px;
+    width: 124px;
+    box-shadow: 0px 1px 0px 0.00px black;
+}
+
+
+/* MENU HEADER */
+
+nav {
+    width: 100%;
+    height: 36px;
+    background-color: #075395;
+    background-image: url(../img/noise.png);
+    background-repeat: repeat-x;
+}
+
+
+/* MENU */
+
+.nav_menu {
+    float: right;
+    font-size: 0;
+}
+
+.nav_menu li {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.nav_menu li a {
+    font-size: 14px;
+    padding: 10px 13px;
+    color: #60b5ed;
+    line-height: 36px;
+    text-decoration: none;
+}
+
+.nav_menu a:hover {
+    background: #4eabda;
+    color: white;
+}
+
+.nav_menu li:last-child {
+    background: url("../img/menu_line.png") right top no-repeat;
+}
+
+
+/* MENU REGISTRATION */
+
+.nav_reg {
+    float: right;
+    margin: 0 50px 0 20px;
+    color: white;
+}
+
+.nav_reg li {
+    position: relative;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.nav_reg .reg {
+    background: -webkit-linear-gradient(top, rgba(100, 168, 227, 1) 0%, rgba(46, 122, 196, 1) 100%);
+    height: 36px;
+    border-bottom-left-radius: 1px;
+    border-bottom-right-radius: 1px;
+    border: 1px solid #64a8e3;
+    box-sizing: border-box;
+}
+
+.reg a {
+    text-decoration: underline;
+}
+
+.nav_reg li:first-child {
+    margin-left: 11px;
+}
+
+.nav_reg li a {
+    color: white;
+    line-height: 36px;
+    font-size: 14px;
+}
+
+.flag {
+    color: white;
+    line-height: 36px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.flag:before {
+    position: absolute;
+    left: -20px;
+    content: "";
+    width: 25px;
+    height: 27px;
+    background: url("../img/flag.png");
+}
+
+
+/* REGISTRATION FORMA */
+
+.sign-in {
+    width: 560px;
+    height: 613px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -280px;
+    margin-top: -268px;
+}
+
+.sign-in-header {
+    height: 62px;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 19px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+form {
+    height: 549px;
+    margin-top: 2px;
+    padding: 36px;
+    text-align: center;
+    color: #cccccc;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.line {
+    position: relative;
+    left: 106px;
+    width: 276px;
+    height: 50px;
+}
+
+.ou {
+    position: relative;
+    top: 27px;
+}
+
+
+/* Input fields */
+
+input {
+    margin-top: 17px;
+    width: 276px;
+    height: 35px;
+    padding-left: 17px;
+    padding-top: 3px;
+    background-color: black;
+    color: #cccccc;
+    border: 0px;
+    box-shadow: 0px 1px 0px 0.00px #676767;
+}
+
+input:focus {
+    background-color: #1b5288;
+    color: white;
+    box-shadow: 0px 1px 0px 0.00px #4b4b4b;
+    -webkit-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    -moz-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+
+
+/* Checkbox */
+
+input[type="checkbox"] {
+    position: absolute;
+    left: 138px;
+    top: 458px;
+    width: 14px;
+    height: 14px;
+}
+
+label {
+    position: absolute;
+    left: 162px;
+    top: 475px;
+}
+
+
+/* Create my Account */
+
+input[type="submit"] {
+    width: 149px;
+    height: 35px;
+    border-radius: 2px;
+    border: 1px solid #4299d2;
+    padding-left: 0px;
+    margin-top: 44px;
+    font-weight: 700;
+    background: linear-gradient(to bottom, #1f80e2 0%, #0060be 100%);
+}
+
+
+/* Agreement*/
+
+.agreement {
+    font-size: 11px;
+    line-height: 15px;
+    margin-top: 19px;
+    padding: 0px 79px;
+    color: #cccccc;
+}
