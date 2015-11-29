@@ -1,10 +1,19 @@
-var num = prompt('Веедите число.', '');
-var exp = prompt('Веедите степень.', '');
+"use strict";
+var x = prompt('Веедите число.', '');
+var n = prompt('Введите целую степень, большую 1', '');
 
-var j = 1;
-for (var i = 0; i < exp; i++) {
-    j = j * num;
+while (n <= 1) {
+    n = prompt('Введите целую степень, большую 1', '');
 }
 
-console.log(j);
-alert("Результат: " + j);
+function exp(x, n) {
+    var res = x;
+
+    for (var i = 1; i < n; i++) {
+        res *= x;
+    }
+    return res;
+}
+
+console.log(exp(x, n));
+alert("Результат: " + [exp(x, n)]);

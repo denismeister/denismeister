@@ -1,4 +1,5 @@
-var arr = [''];
+"use strict";
+var arr = [];
 var i = 0;
 
 do {
@@ -11,13 +12,13 @@ console.log(arr);
 var name = prompt('Введите имя для проверки', '');
 
 var signedIn = false;
-for (var i = 0; i < arr.length; i++) {
+for (i = 0; i < arr.length; i++) {
     if (arr[i] === name) {
-        signedIn = true;
+        signedIn = true; { break; }
     }
 }
 
-if (signedIn === true) {
+if (signedIn) {
     alert([name] + ', вы успешно вошли');
 } else {
     alert('Ваше имя не найдено');
