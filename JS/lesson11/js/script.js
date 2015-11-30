@@ -14,12 +14,13 @@ var name = prompt('Введите имя для проверки', '');
 var signedIn = false;
 for (i = 0; i < arr.length; i++) {
     if (arr[i] === name) {
-        signedIn = true; { break; }
+        signedIn = true; 
+        break; 
     }
 }
 
 if (signedIn) {
-    alert([name] + ', вы успешно вошли');
+    alert(name + ', вы успешно вошли');
 } else {
     alert('Ваше имя не найдено');
 }
