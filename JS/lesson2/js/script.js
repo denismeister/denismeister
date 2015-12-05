@@ -1,9 +1,8 @@
-"use strict";
 var arr = [];
 var i = 0;
 
 do {
-    arr[i] = prompt("Заполните таблицу именами", '');
+    arr[i] = prompt("Введите имя №" + ( +i + 1), '');
     i++;
 } while (i < 5);
 
