@@ -1,0 +1,29 @@
+body{
+/*    color: gray;*/
+/*    background-color: bisque;*/
+    margin: 0 auto;
+    width: 500px;
+    font-family: tahoma;
+    border: 1px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    margin-top: 15px;
+}
