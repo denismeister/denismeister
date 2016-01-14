@@ -1,0 +1,274 @@
+.header {
+    width: 960px;
+    height: 278px;
+    padding-top: 0;
+}
+
+.header__logo {
+    margin-top: 48px;
+    float: left;
+}
+
+.menu {
+    float: right;
+    margin-top: 70px;
+}
+
+.menu__item {
+    float: left;
+}
+
+.menu__sub{
+    display: none;
+}
+
+.menu__item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.menu__link {
+    font-size: 22px;
+}
+
+.menu__link:hover {
+    border-bottom: solid 2px #edbfff;
+}
+
+.container1 {
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-bottom: 168px;
+    overflow-x: hidden;
+}
+
+.wraper {
+    width: 960px;
+    padding: 70px 0 80px;
+}
+
+.wraper--slider:before {
+    content: '';
+    display: block;
+    position: absolute;
+    float: left;
+    width: 30px;
+    height: 42px;
+    background: url(../img/arrow_left.png) 0 0 no-repeat;
+    top: 180px;
+    left: -200px;
+}
+
+.wraper--slider:after {
+    content: '';
+    display: block;
+    position: absolute;
+    float: right;
+    width: 30px;
+    height: 42px;
+    background: url(../img/arrow_right.png) 0 0 no-repeat;
+    top: 180px;
+    right: -200px;
+}
+
+.wraper__heading {
+    font-size: 60px;
+}
+
+.wraper__title {
+    font-size: 32px;
+    line-height: 32px;
+    width: 415px;
+    overflow: visible;
+    height: 35px;
+}
+
+.wraper__text {
+    font-size: 18px;
+    width: 520px;
+    overflow: visible;
+    height: 140px;
+    line-height: 25px;
+}
+
+.wraper__img {
+    width: 274px;
+    height: 434px;
+    background: url(../img/iphone768.png) 0 0 no-repeat;
+    top: 260px;
+    right: 70px;
+}
+
+.radiobutton1 {
+    top: -80px;
+    right: 165px;
+}
+
+.wraper--articles {
+    padding: 79px 0 66px 0;
+    width: 960px;
+}
+
+.wraper__box {
+    float: left;
+    width: 230px;
+    margin-top: 0;
+}
+
+.wraper--articles .wraper__text {
+    width: 230px;
+    line-height: 25px;
+    height: 120px;
+    overflow: visible;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.wraper--articles .wraper__title {
+    font-size: 30px;
+    margin-left: 0;
+}
+
+.wraper__sprite {
+    margin-top: 0;
+}
+
+.company {
+    margin-left: 12px;
+}
+
+.music {
+    margin-left: 41px;
+}
+
+.wraper__link {
+    margin-top: 17px;
+    margin-right: 10px;
+}
+
+.wraper--reviews {
+    width: 960px;
+    padding: 100px 0 20px;
+}
+
+.wraper--reviews .wraper__box {
+    width: 380px;
+    margin-left: 25px;
+    padding-top: 27px;
+}
+
+.wraper__box--plashka {
+    background: url(../img/plashka.png) 0 0 no-repeat;
+    width: 345px;
+    padding: 0 43px 66px 38px;
+}
+
+.wraper--reviews .wraper__box--updates {
+    width: 440px;
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+.wraper--reviews .wraper__title {
+    font-size: 30px;
+    width: 210px;
+    overflow: visible;
+    height: 36px;
+}
+
+.round-photo {
+    position: absolute;
+    top: 120px;
+    left: 0;
+}
+
+.wraper__box--plashka .wraper__text {
+    margin-top: 5px;
+    line-height: 25px;
+    width: 350px;
+    height: 165px;
+    overflow: visible;
+}
+
+.wraper__box--updates .wraper__text {
+    margin-left: 67px;
+    width: 380px;
+    height: 23px;
+    overflow: visible;
+}
+
+.wraper__title--updates {
+    margin-left: 67px;
+    margin-top: 17px;
+}
+
+.wraper--reviews .wraper__link--reviews {
+    margin-top: 22px;
+    margin-right: 0;
+}
+
+.radiobutton2 {
+    position: absolute;
+    bottom: 75px;
+    left: 190px;
+}
+
+.container4 {
+    background: #f9f9f9 url(../img/logos.png) 50% 50% no-repeat;
+    height: 119px;
+    border-top: solid 1px #fefefe;
+    border-bottom: solid 1px #fefefe;
+}
+
+.wraper--prefooter {
+    margin: 0 auto;
+    width: 960px;
+    padding: 95px 0 102px;
+}
+
+.wraper--prefooter .wraper__box {
+    width: 280px;
+    margin-top: 0;
+}
+
+.wraper--prefooter .wraper__box:not(:last-child) {
+    margin-right: 60px;
+}
+
+.wraper--prefooter .wraper__title {
+    font-size: 30px;
+    color: #454545;
+    margin-top: 0;
+}
+
+.wraper--prefooter .wraper__text {
+    width: 290px;
+    height: 156px;
+    overflow: visible;
+}
+
+.wraper--prefooter .wraper__text--prefooter {
+    height: 106px;
+    overflow: visible;
+}
+
+.menu--footer {
+    display: block;
+}
+
+.menu--footer .menu__item--footer:not(:last-child) {
+    margin-right: 45px;
+}
+
+.container6 {
+    background: url(../img/footer960.png) 0 0 no-repeat;
+}
+
+.footer {
+    width: 960px;
+    margin: 0 auto;
+    height: 114px;
+}
+
+.footer__design {
+    float: right;
+    margin-top: 50px;
+}

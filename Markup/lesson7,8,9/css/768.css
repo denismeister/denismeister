@@ -1,0 +1,292 @@
+.header {
+    width: 728px;
+    height: 244px;
+    padding-top: 0;
+}
+
+.header__logo {
+    margin-top: 50px;
+    float: left;
+}
+
+.menu {
+    float: left;
+    margin-top: 35px;
+    width: auto;
+}
+
+.menu__item {
+    float: left;
+    position: relative;
+}
+
+.menu__sub{
+    display: none;
+}
+
+
+.menu__item:not(:last-child) {
+    margin-right: 53px;
+}
+
+.menu__item:not(:first-child) {
+    float: left;
+    list-style: none;
+    visibility: visible;
+}
+
+.menu .menu__item:hover .menu__sub {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.menu__link {
+    font-size: 24px;
+    border-bottom: none;
+}
+
+.menu__link:hover {
+    border-bottom: solid 2px #edbfff;
+    opacity: 1;
+}
+
+.container1 {
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-bottom: 155px;
+}
+
+.wraper {
+    width: 728px;
+    padding: 95px 0 109px 50px;
+}
+
+.wraper--slider:before {
+    content: '';
+    display: block;
+    position: absolute;
+    float: left;
+    width: 30px;
+    height: 42px;
+    background: url(../img/arrow_left.png) 0 0 no-repeat;
+    top: 180px;
+    left: 0;
+}
+
+.wraper--slider:after {
+    content: '';
+    display: block;
+    position: absolute;
+    float: right;
+    width: 30px;
+    height: 42px;
+    background: url(../img/arrow_right.png) 0 0 no-repeat;
+    top: 180px;
+    right: 0;
+}
+
+.wraper__heading {
+    font-size: 48px;
+}
+
+.wraper__title {
+    font-size: 24px;
+    width: 290px;
+    overflow: hidden;
+    height: 29px;
+}
+
+.wraper__text {
+    font-size: 16px;
+    width: 273px;
+    overflow: hidden;
+    height: 106px;
+    line-height: 28px;
+}
+
+.wraper__img {
+    width: 274px;
+    height: 434px;
+    background: url(../img/iphone768.png) 0 0 no-repeat;
+    top: 220px;
+    right: 30px;
+}
+
+.radiobutton1 {
+    top: -115px;
+    right: 140px;
+}
+
+.wraper--articles {
+    padding: 79px 0 66px 20px;
+    width: 728px;
+}
+
+.wraper__box {
+    float: left;
+    width: 155px;
+    margin-top: 0;
+}
+
+.wraper--articles .wraper__text {
+    width: 155px;
+    line-height: 23px;
+    height: 142px;
+    overflow: hidden;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.wraper--articles .wraper__title {
+    font-size: 24px;
+    margin-left: 0;
+}
+
+.wraper__sprite {
+    margin-top: 0;
+}
+
+.company {
+    margin-left: 0;
+}
+
+.talk {
+    margin-left: 30px;
+}
+
+.music {
+    margin-left: 41px;
+}
+
+.wraper__link {
+    margin-top: 6px;
+    margin-right: 10px;
+}
+
+.wraper--reviews {
+    width: 728px;
+    padding: 100px 0 84px 40px;
+}
+
+.wraper--reviews .wraper__box {
+    width: 320px;
+    padding-top: 24px;
+    margin-left: 0;
+}
+
+.wraper__box--plashka {
+    background: url(../img/plashka_768.png) 0 0 no-repeat;
+    width: 315px;
+    height: 274px;
+    padding: 0 0 0 38px;
+}
+
+.wraper--reviews .wraper__box--updates {
+    width: 325px;
+    margin-left: 10px;
+    margin-top: 0;
+}
+
+.wraper__box--plashka .wraper__title {
+    width: 87px;
+    height: 55px;
+    font-size: 24px;
+}
+
+.round-photo {
+    position: absolute;
+    top: 120px;
+    left: 22px;
+}
+
+.wraper__box--plashka .wraper__text {
+    margin-top: 5px;
+    line-height: 25px;
+    width: 250px;
+    height: 145px;
+    overflow: hidden;
+}
+
+.wraper__box--updates .wraper__text {
+    margin-left: 67px;
+    width: 266px;
+    height: 23px;
+    overflow: hidden;
+}
+
+.wraper__title--updates {
+    margin-left: 67px;
+    margin-top: 20px;
+}
+
+.wraper--reviews .wraper__link--reviews {
+    margin-top: 27px;
+    margin-right: 12px;
+}
+
+.radiobutton2 {
+    position: absolute;
+    bottom: 80px;
+    left: 155px;
+}
+
+.container4 {
+    background: #f9f9f9 url(../img/logos768.png) 50% 50% no-repeat;
+    height: 119px;
+    border-top: solid 1px #fefefe;
+    border-bottom: solid 1px #fefefe;
+}
+
+.wraper--prefooter {
+    margin: 0 auto;
+    width: 738px;
+    padding: 93px 0 100px 20px;
+}
+
+.wraper--prefooter .wraper__box {
+    width: 205px;
+    margin-top: 0;
+}
+
+.wraper--prefooter .wraper__box:not(:last-child) {
+    margin-right: 60px;
+}
+
+.wraper--prefooter .wraper__title {
+    font-size: 24px;
+    color: #454545;
+    margin-top: 0;
+}
+
+.wraper--prefooter .wraper__text {
+    width: 205px;
+    height: 172px;
+    overflow: hidden;
+}
+
+.wraper--prefooter .wraper__text--prefooter {
+    height: 122px;
+    overflow: hidden;
+}
+
+.menu--footer {
+    display: block;
+}
+
+.menu--footer .menu__item--footer:not(:last-child) {
+    margin-right: 45px;
+}
+
+.container6 {
+    background: url(../img/footer768.png) 0 0 no-repeat;
+}
+
+.footer {
+    width: 728px;
+    margin: 0 auto;
+    height: 201px;
+}
+
+.footer__design {
+    float: right;
+    margin-top: 100px;
+}
